@@ -1,4 +1,8 @@
-# 🐸 FrogEater MCP Server
+<p align="center">
+  <img src="https://frogeater.rywalker.com/favicon.svg" width="120" height="120" alt="FrogEater">
+</p>
+
+<h1 align="center">FrogEater MCP Server</h1>
 
 MCP (Model Context Protocol) server for [FrogEater](https://frogeater.rywalker.com) — give AI agents the power to manage tasks and eat frogs.
 
