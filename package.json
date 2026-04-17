@@ -1,0 +1,23 @@
+{
+  "name": "frogeater-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for FrogEater task management",
+  "main": "dist/index.js",
+  "bin": {
+    "frogeater-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "frogeater", "todo", "task-management"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0"
+  }
+}
