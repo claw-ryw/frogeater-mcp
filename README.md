@@ -6,15 +6,15 @@ MCP (Model Context Protocol) server for [FrogEater](https://frogeater.rywalker.c
 
 | Tool | Description |
 |------|-------------|
-| `list_lists` | Get all FrogEater lists |
+| `get_lists` | Get all FrogEater lists |
 | `get_todos` | Get todos, filtered by list/completion |
-| `top_frogs` | Get most dreaded high-impact tasks (ranked by frog score) |
+| `get_top_frogs` | Get most dreaded high-impact tasks (ranked by frog score) |
 | `add_todo` | Add a new todo with impact, due date, recurrence |
 | `complete_todo` | Mark a todo as done (eat the frog!) |
 | `update_todo` | Update title, impact, due date, move between lists |
 | `snooze_todo` | Snooze a todo (increases dread score over time) |
 | `delete_todo` | Delete a todo permanently |
-| `backup` | Export all lists and todos as JSON |
+| `get_backup` | Export all lists and todos as JSON |
 
 ## Setup
 

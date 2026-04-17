@@ -44,7 +44,7 @@ const server = new McpServer({
 // --- Tools ---
 
 server.tool(
-  "list_lists",
+  "get_lists",
   "Get all FrogEater lists (Tembo, Personal, House, etc.)",
   {},
   async () => {
@@ -84,7 +84,7 @@ server.tool(
 );
 
 server.tool(
-  "top_frogs",
+  "get_top_frogs",
   "Get the most dreaded high-impact tasks (frog_score = dread × impact²). These are the tasks you should tackle first.",
   {
     limit: z.number().optional().describe("Number of frogs to return (default 10)"),
@@ -247,7 +247,7 @@ server.tool(
 );
 
 server.tool(
-  "backup",
+  "get_backup",
   "Export all lists and todos as JSON backup",
   {},
   async () => {
